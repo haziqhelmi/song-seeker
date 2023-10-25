@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:song_seeker/core/decoder/decoder.service.dart';
 import 'package:song_seeker/core/extension/widget.extension.dart';
 
 class HomeView extends ConsumerStatefulWidget {
@@ -12,6 +13,8 @@ class HomeView extends ConsumerStatefulWidget {
 class _HomeViewState extends ConsumerState<HomeView> {
   @override
   void initState() {
+    Future.microtask(
+        () async => print(await ref.read(decodeService).decodeSongs()));
     super.initState();
   }
 

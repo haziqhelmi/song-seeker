@@ -1,5 +1,5 @@
 name: song_seeker
-description: A song finder based on Rolling Stone's list of The 500 Greatest Songs of All Time..
+description: A song finder based on Rolling Stone's list of The 500 Greatest Songs of All Time.
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -18,14 +18,11 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
 
-# The following section is specific to Flutter packages.
 flutter:
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - asset/json/songs.json
   #
   # fonts:
   #   - family: Schyler
