@@ -1,0 +1,4 @@
+#Wed Oct 25 22:39:15 MYT 2023
+base.0=/Users/haziq.helmi/Developer/PersonalProjects/song-seeker/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
