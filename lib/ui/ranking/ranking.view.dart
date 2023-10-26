@@ -61,12 +61,7 @@ class _RankingViewState extends ConsumerState<RankingView> {
         return ListTile(
           minVerticalPadding: 16,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(24),
-              topRight: Radius.circular(24),
-              bottomLeft: Radius.circular(24),
-              bottomRight: Radius.circular(24),
-            ),
+            borderRadius: BorderRadius.circular(24),
           ),
           isThreeLine: false,
           tileColor: ThemeColor.primaryBlue.withOpacity(0.25),
