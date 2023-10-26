@@ -28,15 +28,19 @@ class _RankingViewState extends ConsumerState<RankingView> {
     final ViewState state = ref.watch(rankingController);
 
     return Scaffold(
-      appBar: AppBar(
-        leading: IconButton(
-          onPressed: () => ref.read(navigationService).pop(),
-          icon: Icon(Icons.west_rounded),
-        ),
-        centerTitle: true,
-        title: Text('Top 500', style: ThemeStyle.title),
-      ),
+      appBar: _buildAppBar(),
       body: _buildBody(state),
+    );
+  }
+
+  AppBar _buildAppBar() {
+    return AppBar(
+      leading: IconButton(
+        onPressed: () => ref.read(navigationService).pop(),
+        icon: Icon(Icons.west_rounded),
+      ),
+      centerTitle: true,
+      title: Text('Top 500', style: ThemeStyle.title),
     );
   }
 
