@@ -1,6 +1,8 @@
 # SongSeeker
 
 - A take-home assessment provided by 'A Serious Company'.
+- The app is a song finder based on Rolling Stone's list of The 500 Greatest Songs of All Time.
+- Song list is stored locally in a `json` file (from the assessment requirement). The json file can be found in this [Github Gist](https://gist.github.com/nanotaboada/a90ce99a9bc8ca3c63c0f1dfeb41d41d) by  [nanotaboada](https://gist.github.com/nanotaboada).
 
 [![Flutter](https://img.shields.io/badge/Flutter_3.13.6-02569B?style=for-the-badge&logo=flutter&logoColor=white)]([https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/release/archive))
 [![Flutter_Riverpod](https://img.shields.io/badge/flutter_riverpod_2.4.3-navy?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAApVBMVEUAAAADXJ8BV5sqtvYqtvYBV5sBV5sqtvYqtvYBV5sqtvYiouMqtvYBV5sBV5sBV5sqtvYptfUBV5sqtvYBV5sqtvYBV5sBV5sqtvYEXaEBV5sqtvYqtvYqtvYBV5sZj9EqtvYBV5sqtvYBV5sqtvYBV5sqtvYBV5sBV5sqtvYqtvYZj9ErufkqtvYAVZkqtvYqtvYBV5sBV5sqtvYZj9EDXKADXaAMlqmQAAAAMnRSTlMABPfnUnZpGPLyaQnQh4FWEu%2Fv13o9NQ738uTe2tXUzsTBsaqlnJiSi4p%2BaVJGRTAnH9DqXfwAAADDSURBVEjH7dPJDoIwFEDRV1BA5hnneZ4t6v9%2Fmo0xaUKh6Vu4467P9kLbH3PCMDRZarozd113kowTW0nr5S%2FLxmju5Vr0cs2LThhdPgcGRr9oz8BoyjxCfz1BaOYDhGbtUJruUZp6FZ3JtMjN40iiqQ%2FV7gdd1JyL3bZRg6Yp1ESytVWrtaDhusuyX6O7pHHT8%2Bwt0WLXGKOBbAQtLR8KWpqP0vCYClqagdJQLLhWKdAwGpwV1yrlMUYD8VICiAoCbZg%2BcGJiNowueP8AAAAASUVORK5CYII%3D)](https://pub.dev/packages/flutter_riverpod)
