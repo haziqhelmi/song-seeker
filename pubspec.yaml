@@ -23,6 +23,8 @@ flutter:
 
   assets:
     - asset/json/songs.json
+    - asset/image/logo.png
+    - asset/image/logo-transparent.png
   #
   # fonts:
   #   - family: Schyler
