@@ -17,5 +17,5 @@
 2. flutter pub get
 
 ### B
-1. VSCode: Run the app with the provided launch.json in release or debug mode
+1. VSCode: Run the app with the provided `launch.json` in debug or release mode
 
